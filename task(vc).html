@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+        	<title>task time table</title>
+	        <style type="text/css">
+
+		        table{
+		        	border-collapse: collapse;
+		        	margin: auto;
+                    margin-bottom: 60px;
+		        	width:1200px;
+                
+		        }
+            
+                .timetable td{
+		        	text-align: center;
+                    width: 200px;
+                    height: 200px;
+                    border: 1px solid #000;
+		        }
+            
+		        .timetable .break{
+		            background:rgb(182 , 198 , 211);
+                    height: 100px;     
+		        }
+            
+                .timetable .vc, .time{
+		            background:rgb(235 , 235 , 235);
+                    border: 1px solid #000;
+		        }
+            
+    	        .lab{
+		            background:rgb(213 ,217 ,220);
+		        }
+            
+            
+	        </style>
+	
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th align="left">
+                    <img style="width: 300px; border-right: 2px solid #000;" src="https://www.darshan.ac.in/Content/media/DU_Logo.svg" align="center"><b style="font-size: 30px; margin-left: 10px;">Darshan University</b>
+                </th>
+    
+                <th align="right" style="font-size: 20px;">
+                    Class Timetable<br>
+                    CSE-1A<br>
+                    DIET - B.Tech. - CSE<br>
+                    w.e.f 12-09-202
+                </th>
+            </tr>
+        </table>
+    
+    
+        <table class="timetable" >
+            <tr>
+    		    <th class="vc">Time<br> Slot</th>
+    		    <th class="vc">Monday</th>
+    		    <th class="vc">Tuesday</th>
+    		    <th class="vc">Wednesday</th>
+    		    <th class="vc">Thursday</th>
+    		    <th class="vc">Friday</th>
+    		    <th class="vc">Saturday</th>
+            </tr>
+            <tr>
+    		    <td class="time">
+    			    07:45 AM<br>
+                    to<br>
+                    08:40 AM
+                </td>
+    		    <td>
+    			    <b>2101CS202 - FE<br>
+                     (Lecture)</b><br>
+                    {KDV}<br>
+                     [AUD-2]
+                 </td>
+    		    <td>
+    			    <b>2101CV101 - ENV<br>
+                    (Lecture)</b><br>
+                    {ACC}<br>
+                    [A-307]
+                </td>
+    		    <td>
+    			    <b>2101CS101 - C<br>
+                    (Lecture)</b><br>
+                    {VJK}<br>
+                    [AUD-1]
+                </td>
+    		    <td>
+    			    <b>2101HS102 - MAT-I<br>
+                    (Lecture)</b><br>
+                    [A-307]
+                    {DBJ}<br>
+                </td>
+    		    <td class="lab" rowspan="2">
+    			    <b>Batch-1<br>
+    			    2101CS104 - WD<br>
+                    (Lab)</b><br>
+                    {DPV}<br>
+                    [C-306]<br><br>
+
+                    <b> Batch-2<br>
+                    2101CS202 - FE<br>
+                    (Lab)</b><br>
+                    {BDJ}<br>
+                    [E-306]<br><br>
+
+                    <b>Batch-3<br>
+                    2101HS102 - MAT-I<br>
+                    (Tutorial)</b><br>
+                    {DBJ}<br>
+                    [A-307]
+                </td>
+    	  	    <td></td>
+        	</tr>
+
+        	<tr>
+    		    <td class="time">
+                    08:40 AM<br>
+                    to<br>
+                    09:35 AM
+                </td>
+    		    <td>
+                    <b>2101CS101 - C<br>
+                    (Lecture)</b><br>
+                    {VJK}<br>
+                    [AUD-2]
+                </td>
+    	  	    <td>
+                    <b>2101HS102 - MAT-I<br>
+                    (Lecture)</b><br>
+                    {DBJ}<br>
+                    [A-307]
+                </td>
+    		    <td>
+                    <b>2101CS104 - WD<br>
+                    Lecture)</b><br>
+                    {AVB}<br>
+                    [AUD-1]
+                </td>
+    	   	    <td>
+                    <b>2101HS101 - CE<br>
+                    (Lecture)</b><br>
+                    {THC}<br>
+                    [A-307]
+                </td>
+    	   	    <td></td>
+        	</tr>
+
+        	<tr>
+    		    <td class="time break">
+                    09:35 AM<br>
+                    to<br>
+                    09:50 AM<br>
+                </td>
+     		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+        	</tr>
+
+        	<tr>
+    		    <td class="time">
+                    09:50 AM<br>
+                    to<br>
+                    10:40 AM
+                </td>
+    	        <td>
+                    <b>2101HS102 - MAT-I<br>
+                    (Lecture)</b><br>
+                    {KMD}<br>
+                    [A-307]<br>
+                </td>
+    		    <td class="lab" rowspan="2">
+    		    <b>Batch-1<br>
+    		        2101CS202 - FE<br>
+                    (Lab)</b><br>
+                    {BDJ}<br>
+                    [E-306]<br><br>
+
+                    <b>Batch-2<br>
+                    2101CS101 - C<br>
+                    (Lab)</b><br>
+                    {EAB}<br>
+                    [C-306]<br><br>
+
+                    <b>Batch-3<br>
+                    2101CS104 - WD<br>
+                    (Lab)</b><br>
+                    {MRF}<br>
+                    [C-302]
+                </td>
+    		    <td>
+    		        <b>2101HS101 - CE<br>
+                    (Lecture)</b><br>
+                    {THC}<br>
+                    [A-307]
+                </td>
+    	 	    <td class="lab" rowspan="2">
+    	 	        <b>Batch-1<br>
+                    2101HS101 - CE<br>
+                    (Lab)</b><br>
+                    {BSM}<br>
+                    [A-316]<br><br>
+                    <b>Batch-2<br>
+                    2101HS102 - MAT-I<br>
+                    (Tutorial)</b><br>
+                    {SAM}<br>
+                    [A-307]<br><br>
+                    <b>Batch-3<br>
+                    2101CS101 - C<br>
+                    (Lab)</b><br>
+                    {SRM}<br>
+                    [C-305]
+                </td>
+    		    <td rowspan="2">
+    		        <b>Co-Curricular<br>
+                    Activities</b><br>
+                    {KMD}<br>
+                    [A-303]
+                </td>
+    	        <td></td>
+    	    </tr>
+
+    	    <tr>
+    		    <td class="time">
+    		        10:40 AM<br>
+                    to<br>
+                    11:30 AM
+                </td>
+    		    <td>
+                    <b>2101CV101 - ENV<br>
+                    (Lecture)</b><br>
+                    {ACC}<br>
+                    [A-307]
+                </td>
+    		    <td>
+    		        <b>2101HS102 - MAT-I<br>
+                    (Lecture)</b><br>
+                    {DBJ}<br>
+                    [A-307]
+                </td>
+    		    <td></td>		
+    	    </tr>
+
+    	    <tr>
+    		    <td class="time break">
+    		        11:30 AM<br>
+                    to<br>
+                    12:10 PM
+                </td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    		    <td class="break">Break</td>
+    	    </tr>
+    	    <tr>
+    		    <td class="time">
+    		        12:10 PM<br>
+                    to<br>
+                    01:00 PM
+                </td>
+    		    <td class="lab" rowspan="2">
+    		        <b>Batch-1<br>
+                    2101CS101 - C<br>
+                    (Lab)</b><br>
+                    {RGV}<br>
+                    [C-304-I]<br><br>
+                    <b>Batch-2<br>
+                    2101CS104 - WD<br>
+                    (Lab)</b><br>
+                    {VJG}<br>
+                    [C-305]<br><br>
+                    <b>Batch-3<br>
+                    2101HS101 - CE<br>
+                    (Lab)</b><br>
+                    {BSM}<br>
+                    [A-316]<br>
+                </td>
+    		    <td>
+    		        <b>2101CS104 - WD<br>
+                    (Lecture)</b><br>
+                    AVB}<br>
+                    [AUD-2]
+                </td>
+    		    <td class="lab" rowspan="2">
+    	            <b>Batch-1<br>
+                    2101HS102 - MAT-I<br>
+                    (Tutorial)</b><br>
+                    {DDB}<br>
+                    [A-307]<br>
+                    <b>Batch-2<br><br>
+                    2101HS101 - CE<br>
+                    (Lab)</b><br>
+                    {THC}<br>
+                    [A-316]<br><br>
+                    <b>Batch-3<br>
+                    2101CS202 - FE<br>
+                    (Lab)</b><br>
+                    {BDJ}<br>
+                    [E-306]
+                </td>
+    		    <td>
+    		        <b>2101CS202 - FE<br>
+                    (Lecture)</b><br>
+                    {KDV}<br>
+                    [AUD-2]<br>
+                </td>
+    		    <td>
+    		        <b>2101CS202 - FE<br>
+                    (Lecture)</b><br>
+                    {KDV}<br>
+                    AUD-2]
+                </td>
+    		    <td></td>
+    	    </tr>
+    	    <tr>
+    		    <td class="time">
+    		        01:00 PM<br>
+                    to<br>
+                    01:50 PM
+                </td>
+    	        <td>
+    	            <b>2101CS101 - C<br>
+                    (Lecture)</b><br>
+                    {VJK}<br>
+                    [AUD-2]
+                </td>
+    	        <td>
+    	            <b>2101CS104 - WD<br>
+                    Lecture)</b><br>
+                    {AVB}<br>
+                    [AUD-2]<br>
+                </td>
+    		    <td>
+    		        <b>2101CS101 - C<br>
+                    (Lecture)</b><br>
+                    {VJK}<br>
+                    [AUD-2]
+                </td>
+    		    <td></td>
+    	    </tr>
+    	</table>
+    
+    
+    	<table>
+    	    <tr>
+    	        <th align="left" valign="bottom" style="font-size: 30px;">Subject:</th>
+    	        <th align="left" valign="bottom" style="font-size: 30px;">Staff:</th>
+    	    </tr>
+    	    <tr>
+    	        <td align="left" valign="top">
+
+    	            <li>Computer programming using c</li>
+    	            <li>2101CS104 - Web Designing</li>
+    	            <li>2101CS202 - Fundamentals of Electronics</li>
+    	            <li>2101CV101 - Environmental Studies</li>
+    	            <li>2101HS101 - Communicative English</li>
+    	            <li>2101HS102 - Mathematics - I</li>
+    	            <li>Co-Curricular Activities</li>
+
+    	        </td>
+    	        <td align="left" valign="top">
+
+    	            <li>ACC - F0649 - Mr. Arjun C Chavada</li>
+    	            <li>AVB - F0337 - Mr. Arjun V Bala</li>
+    	            <li>BDJ - F0638 - Mr. Bhushan D Joshi</li>
+    	            <li>BSM - F0596 - Ms. Beena S Makwana</li>
+    	            <li>DBJ - F0444 - Ms. Daxa B Jani</li>
+    	            <li>DDB - F0643 - Ms. Dhara D Bhut</li>
+    	            <li>DPV - F0616 - Mr. Dharmik P Vasiyani</li>
+    	            <li>EAB - F0652 - Mrs. Ekta A Baldha</li>
+    	            <li>KDV - F0550 - Mr. Krunal D Vyas</li>
+    	            <li>KMD - F0122 - Mr. Kartikraj M Dhamsaniya</li>
+    	            <li>MRF - F0590 - Mr. Madhuresh R Fichadiya</li>
+    	            <li>RGV - F0303 - Mr. Rupesh G Vaishnav</li>
+    	            <li>SAM - F0667 - Ms. Sneha Ashvinbhai Mundadiya</li>
+    	            <li>SRM - F0624 - Ms. Shruti R Maniar</li>
+    	            <li>THC - F0629 - Ms. Twinkle H Chandarana</li>
+    	            <li>VJG - F0598 - Mr. Vaseem J Ghada</li>
+    	            <li>VJK - F0618 - Mr. Vishal J Kansagara</li>
+                
+    	        </td>
+    	    </tr>
+    	</table>
+    </body>
+</html>
