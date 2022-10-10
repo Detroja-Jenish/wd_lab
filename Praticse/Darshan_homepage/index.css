@@ -1,0 +1,11 @@
+div{
+    position : absolute;
+    display: flex;
+    background: red;
+}
+
+img{
+    position: relative;
+    height: 500px;
+    margin-bottom: 50px;
+}
