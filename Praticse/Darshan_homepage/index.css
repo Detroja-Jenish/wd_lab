@@ -1,11 +1,79 @@
-div{
-    position : absolute;
-    display: flex;
-    background: red;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-img{
+#background_image_loader{
+    position: absolute;
+    display: flex;
+}
+
+.slider{
+    height: 100vh;
     position: relative;
-    height: 500px;
-    margin-bottom: 50px;
+    animation: sliding 50s ease-in-out infinite;
+}
+
+#header{
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header img{
+    width: 20%;
+}
+
+#header #menu{
+    margin-right: 0px;
+}
+
+#header #menu #upper{
+    z-index: 2;
+    background: #000;
+    opacity:0.6;
+    color: #fff;
+    display: flex;
+}
+
+#header #menu #upper a{
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+@keyframes sliding{
+    8.33%{transform: translateX(-100%);}
+    14.64%{transform: translateX(-100%);}
+
+    16.66%{transform: translateX(-200%);}
+    22.97%{transform: translateX(-200%);}
+
+    24.99%{transform: translateX(-300%);}
+    31.31%{transform: translateX(-300%);}
+
+    33.32%{transform: translateX(-400%);}
+    39.63%{transform: translateX(-400%);}
+
+    41.65%{transform: translateX(-500%);}
+    47.96%{transform: translateX(-500%);}
+
+    49.98%{transform: translateX(-600%);}
+    56.29%{transform: translateX(-600%);}
+
+    58.31%{transform: translateX(-700%);}
+    64.62%{transform: translateX(-700%);}
+
+    66.64%{transform: translateX(-800%);}
+    72.75%{transform: translateX(-800%);}
+
+    74.77%{transform: translateX(-900%);}
+    81.31%{transform: translateX(-900%);}
+
+    83.33%{transform: translateX(-1000%);}
+    89.61%{transform: translateX(-1000%);}
+
+    91.63%{transform: translateX(-1100%);}
+    100%{transform: translatex(-1100%);}
 }
