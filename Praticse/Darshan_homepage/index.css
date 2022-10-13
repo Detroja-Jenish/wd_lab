@@ -11,6 +11,12 @@ body{
     overflow-x: hidden;
 }
 
+#header{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
 #background_image_loader{
     position: absolute;
     display: flex;
@@ -23,13 +29,13 @@ body{
     animation: sliding 50s ease-in-out infinite;
 }
 
-#header{ 
+#upper-header{ 
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-#header img{
+#upper-header img{
     width: 20%;
     background: #fff;
 }
@@ -74,7 +80,7 @@ body{
     color: #000;
 }
 
-#header a{
+#upper-header a{
     margin: 5px 20px 5px 20px;
 }
 
@@ -110,10 +116,14 @@ body{
     width: fit-content;
 }
 
-.reduce-size-of-img{
+.reduce-size-of-icon{
     height: 50%;
     margin: 0px 5%;
 
+}
+
+.reduce-size-of-img{
+    width: 15vw;
 }
 
 .increased-font-size{
@@ -147,4 +157,38 @@ body{
     89.61%{transform: translateX(-1000%);}
     91.63%{transform: translateX(-1100%);}
     100%{transform: translatex(-1100%);}
+}
+
+#footer{
+    position: relative;
+    display: flex;
+    background: rgb(34, 29, 29);
+    color: white;
+}
+
+.footer-sub-part{
+    display: flex;
+    flex-direction: column;
+    width: 200em;
+    margin: 10px 20px;
+}
+
+hr{
+    width: 6em;
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+}
+
+#footer .footer-sub-part p{
+    font-size: 1em;
+    text-align: justify;
+}
+.footer-heading{
+    color: rgb(225, 64, 64);
+    margin: 10px 0px;
 }
