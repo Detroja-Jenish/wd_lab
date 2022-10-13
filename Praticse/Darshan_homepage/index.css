@@ -3,6 +3,14 @@
     margin: 0px;
 }
 
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
 #background_image_loader{
     position: absolute;
     display: flex;
@@ -66,7 +74,7 @@
     color: #000;
 }
 
-a{
+#header a{
     margin: 5px 20px 5px 20px;
 }
 
