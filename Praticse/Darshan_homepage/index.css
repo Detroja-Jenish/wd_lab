@@ -74,31 +74,46 @@ a{
     z-index: 2;
 }
 
-.flex-container{
-    display: flex;
-}
-
 .at-end{
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 12%;
     width: 100vw;
     bottom: 0px;
     padding: auto;
     z-index: 2;
     color: #fff;
+}
 
+.flex-container{
+    display: flex;
+    align-items: center;
+    height: 8em;
+    
+}
+.flex-container:hover{
+    background: rgb(245, 50, 50)
+}
+
+.for-center-text{
+    height: auto;
+    margin: auto 0px;
+    width: fit-content;
 }
 
 .reduce-size-of-img{
-    height: 70%;
-    margin: auto 0 auto 0;
+    height: 50%;
+    margin: 0px 5%;
+
 }
 
 .increased-font-size{
-    font-size: 30px;
-    margin: auto 0px auto 0px;
+    font-size: 2em;
+}
+
+.font-size-1em{
+    font-size: 1.3em;
 }
 
 @keyframes sliding{
