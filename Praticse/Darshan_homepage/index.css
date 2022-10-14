@@ -8,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    overflow-x: hidden;
 }
 
 #header{
@@ -18,8 +17,10 @@ body{
 }
 
 #background_image_loader{
+    width: 100%;
     position: absolute;
     display: flex;
+    overflow-x: hidden;
 }
 
 .slider{
