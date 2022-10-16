@@ -104,6 +104,7 @@ body{
 .at-end-flex-container, .flex-container{
     display: flex;
     align-items: center;
+    position: relative;
     height: 8em;
     margin: 0px;
     min-width: 300px;
@@ -198,6 +199,8 @@ hr{
     background-color: rgb(8, 25, 48);
     width:max-content;
     padding:0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.5em;
 }
 
 .centre-content{
@@ -210,4 +213,42 @@ hr{
 
 .middle-content-font-theme{
     color:rgb(225, 64, 64);
+}
+
+.middle-contenet-font-size-bolder{
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+.middle-contenet-font-size-lighter{
+    font-size: 1.15em;
+    font-weight: lighter
+}
+
+.red-bg{
+    background-color: rgb(225, 64, 64);
+    margin-right: 0px;
+}
+
+.list-padding{
+    padding: 3em;
+}
+
+.flex2{
+    position:relative;
+    display: flex;
+    width:100vw;
+}
+
+.grey-bg{
+    background-color: rgb(238, 240, 245);
+    
+}
+
+.half-width{
+    width: 50vw;
+}
+
+.list-item{
+    margin-bottom: 2em;
 }
