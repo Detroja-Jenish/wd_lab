@@ -101,13 +101,13 @@ body{
     color: #fff;
 }
 
-.at-end-flex-container{
+.at-end-flex-container, .flex-container{
     display: flex;
     align-items: center;
     height: 8em;
-    width: 25%;
     margin: 0px;
     min-width: 300px;
+    padding: 0em 1em;
 }
 .at-end-flex-container:hover{
     background: rgb(245, 50, 50)
@@ -120,9 +120,7 @@ body{
 }
 
 .reduce-size-of-icon{
-    height: 50%;
-    margin: 0px 5%;
-
+    height: 3em;
 }
 
 .reduce-size-of-img{
@@ -194,4 +192,22 @@ hr{
 .footer-heading{
     color: rgb(225, 64, 64);
     margin: 10px 0px;
+}
+
+.bg-icon{
+    background-color: rgb(8, 25, 48);
+    width:max-content;
+    padding:0.5em;
+}
+
+.centre-content{
+    padding: 0em 30vw;
+}
+
+.middle-content{
+    margin: 0em 0.5em;
+}
+
+.middle-content-font-theme{
+    color:rgb(225, 64, 64);
 }
