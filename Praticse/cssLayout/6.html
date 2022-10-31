@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>for praticse...!!!</title>
+        <style>
+           
+            #header{
+                background-color: black;
+                color: white;
+                padding: 1em;
+            }
+            .main-container{
+                border: 1px solid black;
+                margin-bottom: 1px;
+                display: flex;
+            }
+            .left-column{
+                width: 25%;
+                
+                text-align: justify;
+                padding-left: 0.5em;
+            }
+            .centre-column{
+                width: 75%;
+                height: 80vh;
+                
+                padding-left: 0.5em;
+            }
+            .font-increased{
+                font-size: 2em;
+                
+            }
+            .header2{
+                margin-top: 1em;
+                display: flex;
+                flex-direction: column;
+            }
+            .dummy-text{
+                background-color: bisque;
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
+            }
+
+            #footer{
+                display: flex;
+                background-color: aliceblue;
+                padding: 1em 0px;
+                justify-content: center;
+                border: 1px solid black;
+            }
+            .links{
+                margin: 0.2em;
+                padding: 0.3em;
+                border-right: 1px solid black;
+            }
+            .no-border{
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>site title</h1>
+            fixed 1-column #2  layout (basic)
+        </div>
+
+        <div class="main-container">
+            <div class="left-column">
+                left colummn<br>
+                <a href="">Link Item</a> <br>
+                <a href="">Link Item</a> <br>
+                <a href="">Link Item</a> <br>
+                Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.
+            </div>
+            <div class="centre-column">
+                <div class="header1">
+                    <div class="font-increased">centreColumn</div><br>
+                    Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus, si Palatinas videt aequos aras remque Romanam Latiumque felix alterum in lustrum meliusque semper prorogat aevom, quaeque Aventinum tenet Algidumque, quindecim Diana preces virorum curat et votis puerorum amicas adplicat auris.
+                </div>
+
+                <div class="header2">
+                    <div class="font-increased">HEADER 2</div>
+                    <a href="">link item</a>
+                    <ul class="list">    
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item
+                            <ul>
+                                <li>List Item</li>
+                                <li>List Item</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <a class="links" href="">XHTML</a>
+            <a class="links" href="">CSS</a>
+            <a class="links" href="">WCAG</a>
+            <a class="links no-border" href="">The CSS TinderBox</a>
+        </div>
+    </body>
+</html>
