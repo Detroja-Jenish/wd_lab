@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>10. for praticse...</title>
+        <title>11. for praticse ....!!!</title>
         <style>
             *{
                 box-sizing: border-box;
@@ -15,17 +15,19 @@
 
             .main-container{
                 background-color: red;
-                margin: 0.5em;
+                margin: 0.5em 0em;
             }
-            .left-column{
-                width: 30%;
+            .left-column, .right-column{
+                display: flex;
+                flex-direction: column;
+                width: 20%;
                 background-color: bisque;
                 border: 1px solid black;
                 padding: 0.5em;
                 float: left;
             }
             .centre-column{
-                width: 70%;
+                width: 60%;
                 float: left;
                 padding-left: 0.5em;
             }
@@ -40,26 +42,31 @@
                 margin: 0em 0.5em;
                 padding: 0.5em;
             }
+            .links-div{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1em;
+                align-items: flex-end;
+            }
+            .links-div a, .left-column a{
+                margin: 0.5em 0em;
+            }
         </style>
     </head>
     <body>
         <div class="header">
             <h1>header</h1>
-            fluid two-column layout (basic)
+            fluid three-column layout (basic)
         </div>
 
         <div class="main-container">
             <div class="left-column">
-                left column<br>
-                <a class="links" href="">Home</a> <br>
-                <a class="links" href="">About</a> <br>
-                <a class="links" href="">Gallery</a> <br>
-                <a class="links" href="">Contact</a> <br>
+                <h2>Left column</h2>
+                <a class="links" href="">Home</a>
+                <a class="links" href="">About</a>
+                <a class="links" href="">Gallery</a>
+                <a class="links" href="">Contact</a>
                 Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.<br><br>
-                <a class="links" >XHTML</a><br>
-                <a class="links" >CSS</a><br>
-                <a class="links" >WCAG</a><br>
-                <a class="links" >The CSS Template</a>
             </div>
 
             <div class="centre-column">
@@ -80,6 +87,19 @@
                 </ul>
                 <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
             </div>
+
+            <div class="right-column">
+                <h2>right column</h2>
+                Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus, si Palatinas videt aequos aras remque Romanam Latiumque felix alterum in lustrum meliusque semper prorogat aevom, quaeque Aventinum tenet Algidumque, quindecim Diana preces virorum curat et votis puerorum amicas adplicat auris.
+                <div class="links-div">
+                    <a>XHTML</a>
+                    <a>CSS</a>
+                    <a>CWAG</a>
+                    <a>The CSS TEmplate</a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
+
+<!-- why margin are not same in (.left-column a) and (.links-div a)-->
