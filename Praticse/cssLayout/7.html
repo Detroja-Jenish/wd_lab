@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>for praticse...!!!</title>
+        <title>for praticse...</title>
         <style>
-           
-            #header{
-                background-color: black;
-                color: white;
-                padding: 1em;
-            }
-            .main-container{
+            body{
                 border: 1px solid black;
-                margin-bottom: 1px;
-                display: flex;
+                padding: 0.5em;
             }
-            .left-column{
-                width: 25%;
-                text-align: justify;
-                padding-left: 0.5em;
+             #header{
+                border: 1px solid black;
+                padding: 0em 1em 5em 1em;
             }
-            .centre-column{
-                width: 75%;
-                height: 80vh;
-                padding-left: 1em;
+
+            .main-container{
+                margin: 1em 0em;
+            }
+            .center-column{
+                width: 75%;    
+                float: left;
+            }
+            .right-column{
+                width:25%;              
+                float: left;               
+            }
+            .dummy-text{
+                background-color: bisque;
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
             }
             .font-increased{
                 font-size: 2em;
@@ -33,12 +38,7 @@
                 display: flex;
                 flex-direction: column;
             }
-            .dummy-text{
-                background-color: bisque;
-                border-top: 1px solid grey;
-                border-bottom: 1px solid grey;
-                margin: 0em 0.5em;
-            }
+
 
             #footer{
                 display: flex;
@@ -64,14 +64,7 @@
         </div>
 
         <div class="main-container">
-            <div class="left-column">
-                left colummn<br>
-                <a href="">Link Item</a> <br>
-                <a href="">Link Item</a> <br>
-                <a href="">Link Item</a> <br>
-                Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.
-            </div>
-            <div class="centre-column">
+            <div class="center-column">
                 <div class="header1">
                     <div class="font-increased">centreColumn</div><br>
                     Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus, si Palatinas videt aequos aras remque Romanam Latiumque felix alterum in lustrum meliusque semper prorogat aevom, quaeque Aventinum tenet Algidumque, quindecim Diana preces virorum curat et votis puerorum amicas adplicat auris.
@@ -90,11 +83,19 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
                 </div>
             </div>
+            <div class="right-column">
+                left colummn<br>
+                <a href="">Link Item</a> <br>
+                <a href="">Link Item</a> <br>
+                <a href="">Link Item</a> <br>
+                Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.
+            </div>
+            <div style="clear:both;"></div>
+            <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
         </div>
-        
+
         <div id="footer">
             <a class="links" href="">XHTML</a>
             <a class="links" href="">CSS</a>
@@ -103,3 +104,5 @@
         </div>
     </body>
 </html>
+
+<!--why layout is not show proper without clear both...-->
