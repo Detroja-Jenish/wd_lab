@@ -2,55 +2,17 @@
 <html>
     <head>
         <title>10. for praticse...</title>
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            .header{
-                width: 100%;
-                background-color: rgb(229, 222, 211);
-                padding: 0.5em;
-                padding-bottom: 4em;
-            }
-
-            .main-container{
-                background-color: red;
-                margin: 0.5em;
-            }
-            .left-column{
-                width: 30%;
-                background-color: bisque;
-                border: 1px solid black;
-                padding: 0.5em;
-                float: left;
-            }
-            .centre-column{
-                width: 70%;
-                float: left;
-                padding-left: 0.5em;
-            }
-            .font-increased{
-                font-size: 1.5em;
-                margin-bottom: 1em;                
-            }
-            .dummy-text{
-                background-color: rgb(249, 237, 222);
-                border-top: 1px solid grey;
-                border-bottom: 1px solid grey;
-                margin: 0em 0.5em;
-                padding: 0.5em;
-            }
-        </style>
+        <link rel="stylesheet" href="style_9_10_11.css">
     </head>
     <body>
-        <div class="header">
+        <div id="header">
             <h1>header</h1>
             fluid two-column layout (basic)
         </div>
 
         <div class="main-container">
-            <div class="left-column">
-                left column<br>
+            <div class="left-or-right-column">
+                <h2>left column</h2>
                 <a class="links" href="">Home</a> <br>
                 <a class="links" href="">About</a> <br>
                 <a class="links" href="">Gallery</a> <br>
@@ -78,8 +40,14 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
+                <div class="other-content">
+                    <h3>blockquote</h3>
+                    <p>Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</p>
+                </div>
             </div>
+        </div>
+        <div id="footer">
+            Copyright &copy company name
         </div>
     </body>
 </html>

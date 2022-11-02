@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12. for praticse....</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                padding: 20px;
+            }
+            body{
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                grid-template-rows: 1fr 3fr 1fr 1fr;
+                height: 100vh;
+                width: 100%;
+                gap: 10px;
+                padding: 0px;
+            }
+
+            .header{
+                background-color: skyblue;
+                grid-area: 1/ 1/ span 1/ span 2;
+            }
+            .sidebar{
+                background-color: lightgreen;
+                grid-area: 2/ 1/ span 2/ span 1;
+            }
+            .main-content{
+                background-color: yellow;
+            }
+            .extra-content{
+                background-color: grey;
+            }
+            .footer{
+                background-color: orange;
+                grid-area: 4/ 1/ span 1/ span 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="main-content">Main content</div>
+        <div class="extra-content">Extra content</div>
+        <div class="footer">Footer</div>
+    </body>
+</html>

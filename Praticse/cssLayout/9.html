@@ -1,109 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>9. for pratics...</title>
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            #header{
-                background-color: rgb(249, 237, 222);
-                padding: 1em;
-            }
-
-            .main-container{
-                margin-bottom: 1em;
-                background-color: red;
-            }
-            .center-column{
-                width: 75%;    
-                float: left;
-            }
-            .right-column{
-                width:25%;       
-                background-color: bisque;
-                border: 1px solid black;       
-                float: left;               
-                padding: 0.5em;
-            }
-            .dummy-text{
-                background-color: rgb(249, 237, 222);
-                border-top: 1px solid grey;
-                border-bottom: 1px solid grey;
-                margin: 0em 0.5em;
-                padding: 0.5em;
-            }
-            .font-increased{
-                font-size: 2em;
-                
-            }
-            .header2{
-                margin-top: 1em;
-                display: flex;
-                flex-direction: column;
-            }
-            .links{
-                margin: 0.5em;
-            }
-
-            #footer{
-                text-align: center;
-                padding: 1.5em 0em;
-                background-color:  rgb(141, 141, 37);
-                margin: 1em 0em;
-            }
-        </style>
+        <title>9. for praticse....</title>
+        <link rel="stylesheet" href="style_9_10_11.css">
     </head>
     <body>
         <div id="header">
             <h1>header</h1>
             fluid one-column layout (basic)
         </div>
-
         <div class="main-container">
-            <div class="center-column">
-                <div class="header1">
-                    <div class="font-increased">centreColumn</div><br>
-                    Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus, si Palatinas videt aequos aras remque Romanam Latiumque felix alterum in lustrum meliusque semper prorogat aevom, quaeque Aventinum tenet Algidumque, quindecim Diana preces virorum curat et votis puerorum amicas adplicat auris.
-                </div>
-
-                <div class="header2">
-                    <div class="font-increased">HEADER 2</div>
-                    <a href="">link item</a>
-                    <ul class="list">    
+            <div class="centre-column">
+                <h1>centre column</h1>
+                <p>Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus, si Palatinas videt aequos aras remque Romanam Latiumque felix alterum in lustrum meliusque semper prorogat aevom, quaeque Aventinum tenet Algidumque, quindecim Diana preces virorum curat et votis puerorum amicas adplicat auris.</p>
+                <h2>Header 2</h2>
+                <p>Link Item</p>
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                    <ul>
                         <li>List Item</li>
                         <li>List Item</li>
-                        <li>List Item
-                            <ul>
-                                <li>List Item</li>
-                                <li>List Item</li>
-                            </ul>
-                        </li>
                     </ul>
+                </ul>
+                <div class="other-content">
+                    <h3>blockquote</h3>
+                    <p>Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</p>
                 </div>
-                <div class="dummy-text">blockquote<br> Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</div>
             </div>
-            <div class="right-column">
-                right column<br>
+            <div class="left-or-right-column">
+                <h2>Right column</h2>
                 <a class="links" href="">Home</a> <br>
                 <a class="links" href="">About</a> <br>
                 <a class="links" href="">Gallery</a> <br>
                 <a class="links" href="">Contact</a> <br>
-                Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.<br><br>
+                <p>Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, qui salutari levat arte fessos corporis artus.</p><br>
                 <a class="links" >XHTML</a><br>
                 <a class="links" >CSS</a><br>
                 <a class="links" >WCAG</a><br>
                 <a class="links" >The CSS Template</a>
             </div>
         </div>
-
-        <div style="clear:both"></div>
-
+        
         <div id="footer">
             Copyright &copy company name
         </div>
     </body>
 </html>
-
-<!-- why does margin top and bottom is not applicable in links class and main-container class....
-why layout is not show proper without clear both...-->

@@ -1,0 +1,93 @@
+from 10.html
+
+<style>
+            *{
+                box-sizing: border-box;
+            }
+            .header{
+                width: 100%;
+                background-color: rgb(229, 222, 211);
+                padding: 0.5em;
+                padding-bottom: 4em;
+            }
+
+            .main-container{
+                background-color: red;
+                margin: 0.5em;
+            }
+            .left-column{
+                width: 30%;
+                background-color: bisque;
+                border: 1px solid black;
+                padding: 0.5em;
+                float: left;
+            }
+            .centre-column{
+                width: 70%;
+                float: left;
+                padding-left: 0.5em;
+            }
+            .font-increased{
+                font-size: 1.5em;
+                margin-bottom: 1em;                
+            }
+            .dummy-text{
+                background-color: rgb(249, 237, 222);
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
+                padding: 0.5em;
+            }
+        </style>
+
+from 11.html
+<style>
+            *{
+                box-sizing: border-box;
+            }
+            .header{
+                width: 100%;
+                background-color: rgb(229, 222, 211);
+                padding: 0.5em;
+                padding-bottom: 4em;
+            }
+
+            .main-container{
+                background-color: red;
+                margin: 0.5em 0em;
+            }
+            .left-column, .right-column{
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                background-color: bisque;
+                border: 1px solid black;
+                padding: 0.5em;
+                float: left;
+            }
+            .centre-column{
+                width: 60%;
+                float: left;
+                padding-left: 0.5em;
+            }
+            .font-increased{
+                font-size: 1.5em;
+                margin-bottom: 1em;                
+            }
+            .dummy-text{
+                background-color: rgb(249, 237, 222);
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
+                padding: 0.5em;
+            }
+            .links-div{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1em;
+                align-items: flex-end;
+            }
+            .links-div a, .left-column a{
+                margin: 0.5em 0em;
+            }
+        </style>

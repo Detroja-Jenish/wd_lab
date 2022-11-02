@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>13. for praticse....</title>
+        <style>
+            *{
+                color: white;
+                box-sizing: border-box;
+                
+            }
+
+            body{
+                border: 2px solid grey;
+                height:100vh;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 3fr 2fr 1fr;
+                gap: 5px;
+                padding: 0px;
+            }
+
+            .header{
+                background-color: skyblue;
+                grid-area: 1/ 1/ span 1/ span 6;
+            }
+            .main-content{
+                background-color: lightgreen;
+                grid-area: 2/ 2/ span 1/ span 3;
+            }
+            .sidebar{
+                background-color: rgb(141, 72, 205);
+                grid-area: 2/ 5/ span 1/ span 1;
+            }
+            .twin{
+                background-color: orange;                
+            }
+            .twin1{
+                grid-area: 3/ 2/ span 1/ span 2;
+            }
+            .twin2{
+                grid-area: 3/ 4/ span 1/ span 2;
+            }
+            .footer{
+                background-color: rgb(27, 78, 206);
+                grid-area: 4/ 1/ span 1/ span 6;
+            }
+
+            .text-padding{
+                padding: 1vw;
+                font-size: 3vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text-padding header">.header</div>
+        <div class="text-padding main-content">.main-content</div>
+        <div class="text-padding sidebar">.sidebar</div>
+        <div class="text-padding twin twin1">.twin</div>
+        <div class="text-padding twin twin2">.twin</div>
+        <div class="text-padding footer">.footer</div>
+    </body>
+</html>

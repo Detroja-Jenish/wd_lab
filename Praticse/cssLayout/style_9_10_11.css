@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(249, 237, 222);
+    padding: 1em;
+}
+
+.main-container{
+    overflow: hidden;
+    margin: 1em;
+}
+
+.centre-column{
+    width: 75%;
+    float: left;
+    padding: 0px 1em;
+    background-color: 
+}
+
+.width-50{
+    width: 50%;
+}/* for 11.html */
+
+.other-content{
+    background-color: bisque;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    padding: 0px 0.5em;
+}
+.left-or-right-column{
+    width: 25%;
+    float: left;
+    padding: 0px 1em 1em 1em;
+    background-color: rgb(240, 178, 103);
+    border: 1px solid black;
+    text-align: left;
+}
+
+.links-div{
+    text-align: right;
+}/* for 11.html */
+
+#footer{
+    background-color: rgb(44, 122, 44);
+    text-align: center;
+    padding: 1em 0px;
+}
+
+
+/* queries:
+            why either clear both div below .main-container div or overflow property in .main-container is needed for proper layout??????   */
