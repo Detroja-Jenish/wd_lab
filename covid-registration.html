@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="covid-registration.css">
+    </head>
+    <body>
+        <h1>Covid - Registration Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>First name</td>
+                    <td>:</td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td>:</td>
+                    <td><input type="text" ></td>
+                </tr>
+                <tr>
+                    <td>Adhar Number</td>
+                    <td>:</td>
+                    <td><input type="text" pattern="[1-9][0-9]{11}" ></td>
+                </tr>
+                <tr>
+                    <td>Vaccine Name</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option>select vaccine name</option>
+                            <option>covaxine</option>
+                            <option>covishild</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vaccinetion Centre</td>
+                    <td>:</td>
+                    <td>
+                        <select>
+                            <option>select Vaccinetion Centre</option>
+                            <option>west-zone</option>
+                            <option>mavdi</option>
+                            <option>nana-mava</option>
+                            <option>east-zone</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Dose</td>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Number of Dose</td>
+                    <td>:</td>
+                    <td><input type="number"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
