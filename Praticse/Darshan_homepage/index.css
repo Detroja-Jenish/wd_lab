@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -89,19 +90,28 @@ body{
     z-index: 2;
 }
 
-.at-end{
+.at-end-flex-container{
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100vw;
     bottom: 0px;
-    
     z-index: 2;
     color: #fff;
 }
 
-.at-end-flex-container, .flex-container{
+.at-end-flex-item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 8em;
+    margin: 0px;
+    width: 24.5%;
+    padding: 0em 1em;
+}
+
+.flex-container{
     display: flex;
     align-items: center;
     position: relative;
@@ -110,7 +120,7 @@ body{
     min-width: 300px;
     padding: 0em 1em;
 }
-.at-end-flex-container:hover{
+.at-end-flex-item:hover{
     background: rgb(245, 50, 50)
 }
 
@@ -164,15 +174,16 @@ body{
 #footer{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
     background: rgb(34, 29, 29);
     color: white;
 }
 
 .footer-sub-part{
-    display: flex;
-    flex-direction: column;
-    width: 200em;
-    margin: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	width: 23%;
 }
 
 .small-horizontal-line{
@@ -208,8 +219,14 @@ body{
 }
 
 .middle-content{
-    margin: 0em 0.5em;
+    padding: 0em 0.5em;
 }
+
+.pipes{
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+}
+
 
 .middle-content-font-theme{
     color:rgb(225, 64, 64);
@@ -274,4 +291,17 @@ body{
 
 .orange-bg{
     background: rgb(227, 111, 3);
+}
+
+@media ( max-width : 1200px)
+{
+	#footer{
+		flex-wrap: wrap;
+	}
+	.footer-sub-part{
+		width: 46%;
+	}
+	.at-end-flex-item{
+		width: 49%;
+	}
 }
