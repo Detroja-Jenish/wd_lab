@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -291,6 +292,83 @@ body{
 
 .orange-bg{
     background: rgb(227, 111, 3);
+}
+
+.placement-highlights{
+		margin-top: 5%;
+		display: flex;
+		justify-content: space-between;
+}
+
+.company-name-slider-container{
+		display: flex;
+		width: 28vw;
+		overflow-x: hidden;
+}
+
+.company-name-slide{
+		min-width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 0.5%;
+		animation: carousel 4s ease-in-out infinite;
+}
+
+ .company-name-slide > .company-img{
+		 width: 100%;
+		 margin: 0px;
+ }
+@keyframes carousel{
+		50%{
+				transform: translatex(-100%);
+		}
+		100%{
+				transform: translatex(-200%);
+		}
+}
+
+.placement-data{
+		width: 55vw;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 3%;
+}
+
+.placed-student{
+		width: 22%;
+		border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 3%;
+		transition: transform 0.5s;
+}
+
+.placed-student:hover{
+		transform: translatey(-2%);
+		box-shadow: 13px 30px 30px rgb(175,175,175);
+}
+
+.company-img{
+		width: 50%;
+		margin: auto;
+}
+
+.student-img{
+		width: 95%;
+		margin: 10px auto;
+		border-radius: 3%;
+}
+
+.text-align{
+		text-align: center;
+}
+
+.under-line{
+		width: 70%;
+		border: 1px solid grey;
+		border-radius: 50%;
+		margin: 10px auto;
 }
 
 @media ( max-width : 1200px)

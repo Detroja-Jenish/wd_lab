@@ -1,0 +1,170 @@
+from 10.html
+
+<style>
+            *{
+                box-sizing: border-box;
+            }
+            .header{
+                width: 100%;
+                background-color: rgb(229, 222, 211);
+                padding: 0.5em;
+                padding-bottom: 4em;
+            }
+
+            .main-container{
+                background-color: red;
+                margin: 0.5em;
+            }
+            .left-column{
+                width: 30%;
+                background-color: bisque;
+                border: 1px solid black;
+                padding: 0.5em;
+                float: left;
+            }
+            .centre-column{
+                width: 70%;
+                float: left;
+                padding-left: 0.5em;
+            }
+            .font-increased{
+                font-size: 1.5em;
+                margin-bottom: 1em;                
+            }
+            .dummy-text{
+                background-color: rgb(249, 237, 222);
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
+                padding: 0.5em;
+            }
+        </style>
+
+from 11.html
+<style>
+            *{
+                box-sizing: border-box;
+            }
+            .header{
+                width: 100%;
+                background-color: rgb(229, 222, 211);
+                padding: 0.5em;
+                padding-bottom: 4em;
+            }
+
+            .main-container{
+                background-color: red;
+                margin: 0.5em 0em;
+            }
+            .left-column, .right-column{
+                display: flex;
+                flex-direction: column;
+                width: 20%;
+                background-color: bisque;
+                border: 1px solid black;
+                padding: 0.5em;
+                float: left;
+            }
+            .centre-column{
+                width: 60%;
+                float: left;
+                padding-left: 0.5em;
+            }
+            .font-increased{
+                font-size: 1.5em;
+                margin-bottom: 1em;                
+            }
+            .dummy-text{
+                background-color: rgb(249, 237, 222);
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                margin: 0em 0.5em;
+                padding: 0.5em;
+            }
+            .links-div{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1em;
+                align-items: flex-end;
+            }
+            .links-div a, .left-column a{
+                margin: 0.5em 0em;
+            }
+        </style>
+
+
+        ......darshan_homepage....
+
+            <div class="placement-data">
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/170543106082---13-07-2021-09-21-48.jpg">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107186---11-05-2022-11-09-16.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/TechnoMark---25-08-2022-08-42-22.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107148---11-05-2022-10-24-16.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107137---25-08-2022-08-57-11.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/TechnoMark---25-08-2022-08-42-22.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107021---11-05-2022-11-18-38.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/Websmith%20Solutions---05-08-2022-08-19-10.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107188---28-09-2022-08-16-13.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/Intech%20Creative%20Services---28-09-2022-08-32-17.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/200540107519---25-06-2022-05-43-17.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/9_Simform_19032020_050654AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107106---12-07-2022-07-59-44.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+    </div>
