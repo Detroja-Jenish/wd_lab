@@ -91,3 +91,80 @@ from 11.html
                 margin: 0.5em 0em;
             }
         </style>
+
+
+        ......darshan_homepage....
+
+            <div class="placement-data">
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/170543106082---13-07-2021-09-21-48.jpg">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107186---11-05-2022-11-09-16.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/TechnoMark---25-08-2022-08-42-22.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107148---11-05-2022-10-24-16.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107137---25-08-2022-08-57-11.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/TechnoMark---25-08-2022-08-42-22.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107021---11-05-2022-11-18-38.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/Websmith%20Solutions---05-08-2022-08-19-10.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107188---28-09-2022-08-16-13.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/Intech%20Creative%20Services---28-09-2022-08-32-17.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/200540107519---25-06-2022-05-43-17.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/9_Simform_19032020_050654AM.png">
+            <p class="text-align">city</p>
+        </div>
+
+        <div class="placed-student">
+            <img class="student-img" src="https://darshan.ac.in/U01/Student-Photo/190540107106---12-07-2022-07-59-44.JPG">
+            <p class="text-align">name</p>
+            <hr class="under-line">
+            <p class="text-align">placed in</p>
+            <img class="company-img" src="https://darshan.ac.in/U01/Recruiter/6-7_Asite_18032020_080100AM.png">
+            <p class="text-align">city</p>
+        </div>
+    </div>
