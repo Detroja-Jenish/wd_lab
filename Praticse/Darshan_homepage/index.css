@@ -300,9 +300,13 @@ body{
 		justify-content: space-between;
 }
 
+.right-col{
+    width: 30%;
+}
+
 .company-name-slider-container{
 		display: flex;
-		width: 28vw;
+		width: 100%;
 		overflow-x: hidden;
 }
 
@@ -336,7 +340,8 @@ body{
 
 .placed-student{
 		width: 22%;
-		border: 2px solid black;
+		border: 1px solid grey;
+        border-radius: 10px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
