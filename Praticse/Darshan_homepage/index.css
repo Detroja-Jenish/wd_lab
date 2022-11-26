@@ -1,6 +1,6 @@
 *{
     padding: 0px;
-    margin: 1px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -229,6 +229,7 @@ body{
     border-right: 2px solid grey;
 }
 
+
 .middle-content-font-theme{
     color:rgb(225, 64, 64);
 }
@@ -279,6 +280,7 @@ body{
 
 .contact-table{
     margin: 2em 4em;
+    padding: 1em;
     border: 4px solid rgb(238, 240, 245);
 }
 
@@ -327,14 +329,14 @@ body{
         min-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 0.5%;
+        gap: 1%;
         animation: carousel 4s ease-in-out infinite;
 }
 
-.company-name-slide > .company-img{
+ .company-name-slide > .company-img{
          width: 100%;
          margin: 0px;
-}
+ }
 @keyframes carousel{
         50%{
                 transform: translatex(-100%);
@@ -362,7 +364,7 @@ body{
         transition: transform 0.5s;
 }
 
-.placed-student:hover{
+.placed-student:hover, .company-name-slide > .company-img:hover{
         transform: translatey(-2%);
         box-shadow: 13px 30px 30px rgb(175,175,175);
 }
@@ -389,46 +391,52 @@ body{
         margin: 10px auto;
 }
 
-
 @media ( max-width : 1200px)
 {
-#footer{
+ #footer{
   flex-wrap: wrap;
-}
-.footer-sub-part{
+ }
+ .footer-sub-part{
   width: 46%;
-}
-.at-end-flex-item{
+ }
+ .at-end-flex-item{
   width: 49%;
-}
+ }
 
 }
-@media ( max-width: 700px){
-		*{
-				font-size: 10px;
-		}
-		.footer-sub-part{
-				width: 98%;
-		}
-		.flex2 > div{
-				width: 100%;
-		}
-		.list-padding{
-				padding: 0px 0px 0px 4em;
-		}
-		.middle-contenet-font-size-bolder{
-				font-size: 2em;
-		}
-		.flex2 > div{
-				width: 100%;
-		}
-		.right-col{
-				width: 70%;
-		}
-		.left-col{
-				width: 90%;
-		}
-		.placement-highlights{
-				justify-content: center;
-		}
+@media ( max-width: 600px ){
+*{
+    font-size: 10px;
+}
+ .footer-sub-part{
+      width: 98%;
+ }
+ .flex2 > div{
+     width: 100%;
+ }
+ .list-padding{
+     padding: 0px 0px 0px 4em;
+ }
+ .middle-contenet-font-size-bolder{
+     font-size: 2em;
+ }
+ .flex2 > div{
+     width: 100%;
+ }
+ .right-col{
+     width: 70%;
+ }
+ .left-col{
+     width: 90%;
+ }
+ .placement-highlights{
+     justify-content: center;
+ }
+ 
+ #menu{
+     display: none;
+ }
+ #header img{
+     width: 30%;
+ }
 }
