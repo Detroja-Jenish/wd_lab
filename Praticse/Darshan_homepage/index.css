@@ -173,10 +173,11 @@ body{
 }
 
 #footer{
+	width: 100vw;
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    gap: 1%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
     background: rgb(34, 29, 29);
     color: white;
 }
@@ -216,7 +217,8 @@ body{
 }
 
 .centre-content{
-    padding: 0em 30vw;
+		display:flex;
+		justify-content: center;
 }
 
 .middle-content{
@@ -263,7 +265,7 @@ body{
     
 }
 
-.half-width{
+.flex2 > div{
     width: 50vw;
 }
 
@@ -302,6 +304,16 @@ body{
 
 .right-col{
     width: 30%;
+}
+
+.placement-overview{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		width: 100%;
+}
+.placement-overview > h2{
+		grid-area: 1/1/span 1/span 3;
+		background: red;
 }
 
 .company-name-slider-container{
@@ -378,13 +390,34 @@ body{
 
 @media ( max-width : 1200px)
 {
-	#footer{
-		flex-wrap: wrap;
-	}
-	.footer-sub-part{
-		width: 46%;
-	}
-	.at-end-flex-item{
-		width: 49%;
-	}
+ #footer{
+  flex-wrap: wrap;
+ }
+ .footer-sub-part{
+  width: 46%;
+ }
+ .at-end-flex-item{
+  width: 49%;
+ }
+	
+ .flex2 > div{
+     width: 50%;
+ }
+
 }
+@media ( max-width: 600px ){
+ .footer-sub-part{
+      width: 98%;
+	  background: red;
+ }
+ .list-padding{
+     padding: 0px 0px 0px 4em;
+ }
+ .middle-contenet-font-size-bolder{
+     font-size: 2em;
+ }
+ .flex2 > div{
+     width: 100%;
+ }
+}
+
