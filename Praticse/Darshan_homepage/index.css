@@ -364,6 +364,18 @@ body{
         transition: transform 0.5s;
 }
 
+.placed-student:after{
+		position: absolute;
+		z-index: 10;
+		top: 10px;
+		content: attr(data-parrent);
+		padding: 10px 15px 10px 10px;
+		color: white;
+		width: fit-content;
+		background: rgb(59, 205, 235);
+}
+
+
 .placed-student:hover, .company-name-slide > .company-img:hover{
         transform: translatey(-2%);
         box-shadow: 13px 30px 30px rgb(175,175,175);
